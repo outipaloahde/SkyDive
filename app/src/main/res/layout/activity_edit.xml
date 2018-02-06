@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit jump by jump number"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jump number"/>
+            <EditText
+                android:id="@+id/etDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date"/>
+            <EditText
+                android:id="@+id/etPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Place"/>
+            <EditText
+                android:id="@+id/etAircraft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Aircraft"/>
+            <EditText
+                android:id="@+id/etGear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gear"/>
+            <EditText
+                android:id="@+id/etType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SL/AFF/TANDEM"/>
+            <EditText
+                android:id="@+id/etExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Exit"/>
+            <EditText
+                android:id="@+id/etDeploy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Deploy"/>
+            <EditText
+                android:id="@+id/etDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="1"
+                android:hint="Description"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/btEdit"
+        android:text="Edit Jump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

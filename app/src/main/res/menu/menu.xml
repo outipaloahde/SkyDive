@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/mnMain"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="Main"/>
+    <item android:id="@+id/mnAddJump"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="Add a jump"/>
+    <item android:id="@+id/mnShowAll"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="Show all jumps"/>
+    <item android:id="@+id/mnEdit"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="Edit jumps"/>
+    <item android:id="@+id/mnDelete"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="Delete"/>
+    <item android:id="@+id/mnWeather"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="Weather"/>
+
+
+</menu>
